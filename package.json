@@ -1,12 +1,13 @@
 {
-  "name": "cloud",
+  "name": "mydemo",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "description": "Nothing",
   "license": "ISC",
-  "description": ""
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",   
+  "scripts": {
+    "start": "node app.js",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
